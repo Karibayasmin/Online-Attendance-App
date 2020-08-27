@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Online Attendance App</string>
+
+    <string name="name">Name</string>
+    <string name="user_id">User Id</string>
+    <string name="submit">Submit</string>
+</resources>

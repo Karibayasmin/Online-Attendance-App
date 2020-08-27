@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/name"
+        />
+
+    <EditText
+        android:id="@+id/name_edt"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/rectangle_stores"
+        tools:text="Kariba"/>
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name_edt"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/user_id"
+        />
+
+    <EditText
+        android:id="@+id/userid_edt"
+        android:layout_width="295dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/user_id"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:paddingLeft="8dp"
+        android:background="@drawable/rectangle_stores"
+        tools:text="Kariba"/>
+
+    <Button
+        android:id="@+id/store_name"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/userid_edt"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_alignEnd="@+id/userid_edt"
+        android:text="@string/submit"
+        android:background="@drawable/rectangle_stores"
+        />
+
+</RelativeLayout>
