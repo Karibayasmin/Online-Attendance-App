@@ -12,6 +12,7 @@
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
+        android:layout_marginBottom="4dp"
         tools:text="Hello World!"
         android:background="@drawable/rectangle_stores"
          />
