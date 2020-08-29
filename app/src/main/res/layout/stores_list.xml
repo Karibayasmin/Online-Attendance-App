@@ -4,12 +4,15 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <Button
+    <TextView
         android:id="@+id/store_name"
         android:layout_width="295dp"
         android:layout_height="50dp"
+        android:paddingLeft="100dp"
+        android:paddingTop="10dp"
         android:textSize="16sp"
         android:textStyle="bold"
+        android:textColor="@color/Black"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="4dp"

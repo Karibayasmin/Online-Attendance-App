@@ -51,7 +51,7 @@
         tools:text="Kariba"/>
 
     <Button
-        android:id="@+id/store_name"
+        android:id="@+id/submit"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_below="@+id/userid_edt"
